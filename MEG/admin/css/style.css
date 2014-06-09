@@ -1,0 +1,151 @@
+/* 
+    Document   : style02
+    Created on : May 25, 2014, 9:39:17 AM
+    Author     : kubin_love
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body{
+    background: #f2f2f2;
+}
+.header{
+    width: 80%;
+    height: 80px;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    /*    background: #f2f2f2;*/
+    background: url(http://1contact.vn/meg/style/images/Onecontact-header.png) no-repeat;
+    position: absolute;
+    margin: 5px;
+
+
+}
+
+.menu{
+    height: 30px;
+    top: 100px;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    border: aqua;
+    position: absolute;
+    margin: 5px;
+}
+/*.content*/
+.upload{
+    min-height: 130px;
+    width: 100%;
+    position: relative;
+    margin: 5px;
+}
+.show{
+    min-height: 10px;
+    width: 100%;
+    position: relative;
+    margin: 5px;
+}
+
+.content{
+    /*    height: 550px;*/
+    min-height: 550px;
+    top: 135px;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    position: relative;
+    margin: 5px;
+    /*    background: url(http://1contact.vn/meg/style/images/One%20contact-02.png);*/
+}
+.content_left{
+    height: 98%;
+    width: 48%;
+    /*    background-color:#C4D5E6;*/
+    position: absolute;
+
+    margin: 5px;
+}
+
+.android_title{
+    margin: 5px;
+    position: relative;
+    width: 98%;
+    text-align: center;
+    background-color: greenyellow;
+
+}
+.android_left{
+    margin: 5px;
+    width: 48%;
+    position: absolute;
+/*    background-color:#C4D5E6;*/
+
+    /*    background: url(/img/iconapps/app_icon_DialPad.png);*/
+}
+.android_left img, .android_right img {
+    height: 30px;
+    width: 30px;
+}
+.android_right{
+    margin: 5px;
+    width: 48%;
+    left: 50%;
+    position: absolute;
+}
+
+.content_right{
+    right: 0%;
+    width: 49.8%;
+    height: 98%;
+    /*    background-color: lavender;*/
+    position: absolute;
+    margin: 5px;
+}
+
+.ios_title{
+    margin: 5px;
+    position: relative;
+    width: 98%;
+    text-align: center;
+    background-color: silver;
+}
+.ios_left{
+    margin: 5px;
+    width: 48%;
+    position: absolute;
+/*    background-color:#C4D5E6;*/
+
+}
+.ios_right{
+    margin: 5px;
+    width: 48%;
+    left: 50%;
+    position: absolute;
+}
+
+.ios_left img, .ios_right img {
+    height: 30px;
+    width: 30px;
+}
+
+/*--Footer*/
+.footer{
+
+    width:80%;
+    min-height:29px;
+    left: 10%;
+    right: 10%;
+    margin-top:5px;
+    line-height:29px;
+    text-align:center;
+    border-top:1px solid #a8a8a8;
+    /*    background:#f2f2f2;*/
+    position: relative;
+    top: 700px;
+
+}
